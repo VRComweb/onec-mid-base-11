@@ -32,6 +32,27 @@
   <registerRecords>AccumulationRegister.ЗадолженностьПоставщикам</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ac9aa4c8-566d-4ea7-9f04-0d4dc131cff2">
+    <name>КВВ_КонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо</value>
+    </synonym>
+    <comment>Хранит Контактное лицо Контрагента</comment>
+    <type>
+      <types>CatalogRef.КВВ_КонтрагентыСписокКонтактныхЛиц</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Document.ОплатаПоставщику.Attribute.Контрагент</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="bb21bb8d-fe48-4bca-bf79-b3bc019c4209">
     <name>Организация</name>
     <synonym>

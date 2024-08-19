@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="174c3716-005e-4be4-887c-87a92bd50204">
+  <name>КВВ_Доработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доработка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ВажностьВысокая</picture>
+  </picture>
+  <content>Catalog.КВВ_КонтрагентыСписокКонтактныхЛиц</content>
+  <content>Catalog.КВВ_КонтрагентыДолжностьКонтактныхЛиц</content>
+  <content>Catalog.Контрагенты</content>
+</mdclass:Subsystem>
