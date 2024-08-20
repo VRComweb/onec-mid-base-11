@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Контрагенты должность контактных лиц</value>
   </synonym>
+  <comment>Справочник должностей контрагентов</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.КВВ_КонтрагентыДолжностьКонтактныхЛиц.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.КВВ_КонтрагентыДолжностьКонтактныхЛиц.StandardAttribute.Code</inputByString>

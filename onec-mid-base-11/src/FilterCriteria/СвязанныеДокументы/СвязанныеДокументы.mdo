@@ -12,8 +12,10 @@
   <type>
     <types>DocumentRef.ЗаказПокупателя</types>
     <types>DocumentRef.РеализацияТоваровУслуг</types>
+    <types>DocumentRef.КВВ_Доставка</types>
     <types>DocumentRef.ОплатаОтПокупателя</types>
   </type>
-  <content>Document.РеализацияТоваровУслуг.Attribute.Основание</content>
   <content>Document.ОплатаОтПокупателя.Attribute.Основание</content>
+  <content>Document.РеализацияТоваровУслуг.Attribute.Основание</content>
+  <content>Document.КВВ_Доставка.Attribute.Основание</content>
 </mdclass:FilterCriterion>
